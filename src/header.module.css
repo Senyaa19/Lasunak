@@ -15,18 +15,18 @@
 	padding: 0 15px;
 }
 
-.header_inner {
+.inner {
 	display: flex;
 	justify-content: space-between;
 	padding: 15px 0;
 }
 
-.header_logo {
+.logo {
 	display: flex;
 	justify-content: space-between;
 }
 
-.header_title {
+.title {
 	font-size: 30px;
 	color: #ffffff;
 	font-weight: 700;
@@ -43,7 +43,7 @@
 	color: black;
 }
 
-.nav_link{
+.link{
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	margin-right: 45px;
@@ -52,7 +52,7 @@
 	position: relative;
 }
 
-.nav_link:after{
+.link:after{
 	content: "";
 	display: block;
 	width: 100%;
@@ -69,10 +69,10 @@
 	z-index: 1;
 }
 
-.nav_link:hover:after{
+.link:hover:after{
 	opacity: 1;
 }
 
-.nav_link:hover{
+.link:hover{
 	color: #96C6FF;
 }

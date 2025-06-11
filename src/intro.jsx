@@ -1,4 +1,4 @@
-import './intro.modul.css'
+import './intro.css'
 
 function Intro()
 {
