@@ -1,3 +1,5 @@
+import './header.modul.css'
+
 function Hea() {
   
   return (
@@ -6,7 +8,7 @@ function Hea() {
 	<div className="container">
 		<div className="header_inner">
 			<div className="header_logo">
-				<img src="logo.jpg"></img>
+				<img src="./img/logo.jpg"></img>
 				<div className="header_title">Ласунак</div>
 			</div>
 			<nav className="nav">

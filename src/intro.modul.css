@@ -1,0 +1,33 @@
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 700px;
+	padding-top: 120px;
+	/* background: #ffffff url("./img/fon.jpg") center no-repeat; */
+	background-size: cover;
+}
+
+.intro_inner{
+	width: 100%;
+	max-width: 830px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro_title{
+	font-size: 50px;
+	color: #2560A6;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.intro_subtitle{
+	font-size: 22px;
+	color: #2560A6;
+	margin-bottom: 110px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}

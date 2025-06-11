@@ -1,5 +1,5 @@
 import Menu_con from './menu_con.jsx'
-import style from './menu.module.css'
+import style from './menu.modul.css'
 
 function Menu(props) {
     const { subtitle, arr } = props;

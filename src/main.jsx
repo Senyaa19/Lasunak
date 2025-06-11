@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Hea from './header.jsx'
 import Menu from './menu.jsx'
+import Intro from './intro.jsx'
 
 
 const arr = [
@@ -18,7 +19,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Hea />
-    <Menu subtitle="Супы" arr={arr}/>
-    <Menu subtitle="Грибы" arr={arr1}/>
+    {/* <Menu subtitle="Супы" arr={arr}/>
+    <Menu subtitle="Грибы" arr={arr1}/> */}
+    <Intro />
   </StrictMode>,
 )
