@@ -27,6 +27,7 @@ function App() {
 
   return (
     <>
+        <Conteiner />
         <Hea />
         <Intro />
         {/* <Menu subtitle="Супы" arr={arr}/>
