@@ -1,3 +1,4 @@
+import Conteiner from './conteiner.jsx'
 import style from './footer.module.css'
 
 function Foot() {
@@ -5,7 +6,7 @@ function Foot() {
     return (
         <>
             <footer className={style.footer}>
-                {/* <div className={style.container}> */}
+                <Conteiner>
                     <div className={style.inner}>
                         <div className={style.item}>
                             <div className={style.title}>О нас</div>
@@ -44,7 +45,7 @@ function Foot() {
                                 </div>
                         </div> 
                     </div> 
-                {/* </div>  */}
+               </Conteiner>
             </footer>
         </>
     )
