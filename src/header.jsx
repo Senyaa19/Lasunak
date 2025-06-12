@@ -1,13 +1,13 @@
-import './header.module.css'
+import style from'./header.module.css'
 
 function Hea() {
   
   return (
     <>
     <header className={style.header}>
-	<div className={style.container}>
+		{/* <Conteiner> */}
 		<div className={style.inner}>
-			<div className={style._logo}>
+			<div className={style.logo}>
 				<img src="./img/logo.jpg"></img>
 				<div className={style.title}>Ласунак</div>
 			</div>
@@ -18,7 +18,7 @@ function Hea() {
 				<a className={style.link} href="contact.html">Обратная связь</a>
 			</nav>	
 		</div> 
-	</div> 
+		{/* </Conteiner> */}
     </header> 
     </>
   )

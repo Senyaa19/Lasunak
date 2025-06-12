@@ -6,9 +6,9 @@ function Menu(props) {
   
   return (
     <>
-    <div className="test">МЕНЮ</div>
-		<div className="menu_subtitle">{subtitle}</div>
-			<div className="menu_inner">
+    <div className={style.test}>МЕНЮ</div>
+		<div className={style.subtitle}>{subtitle}</div>
+			<div className={style.inner}>
                 {
                     arr.map(el => <Menu_con 
                         title_item={el.title_item} 
