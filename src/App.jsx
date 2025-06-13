@@ -25,11 +25,11 @@ function App() {
     <>
         <Conteiner />
         <Hea />
-        <Intro />
+        {/* <Intro />
         <About />
-        <Contact />
-        {/* <Menu subtitle="Супы" arr={arr}/>
-        <Menu subtitle="Грибы" arr={arr1}/> */}
+        <Contact /> */}
+        <Menu subtitle="Супы" arr={arr}/>
+        <Menu subtitle="Грибы" arr={arr1}/>
         <Foot />
 
     </>

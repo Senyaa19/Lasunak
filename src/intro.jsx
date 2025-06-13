@@ -1,5 +1,5 @@
 import Conteiner from './conteiner.jsx'
-import style from'./intro.module.css'
+import style from './intro.module.css'
 
 function Intro()
 {

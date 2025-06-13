@@ -1,6 +1,7 @@
-import Conteiner from './conteiner.jsx';
+
 import Menu_con from './menu_con.jsx'
 import style from './menu.module.css'
+import Conteiner from './conteiner.jsx';
 
 function Menu(props) {
     const { subtitle, arr } = props;

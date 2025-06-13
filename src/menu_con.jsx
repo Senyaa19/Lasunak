@@ -1,3 +1,5 @@
+import style from './menu.module.css'
+
 function Menu_con(props) {
   const { title_item, gram_item, structure_item, price_item } = props;
 
